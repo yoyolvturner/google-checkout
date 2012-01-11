@@ -62,6 +62,8 @@ module GoogleCheckout
     # Beware using symbols as values. They may be set as sub-keys instead of values,
     # so use a String or other datatype.
 
+    attr_accessor :contents # I'd quite like to be able to see the contents of the cart plz!
+
     attr_accessor :merchant_private_data
 
     attr_accessor :edit_cart_url
